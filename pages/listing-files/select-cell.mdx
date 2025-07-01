@@ -1,0 +1,71 @@
+---
+title: Select the Cell
+---
+
+# Start Listing Files From
+
+Before listing files in your Google Sheet, you must choose where the data should be inserted. This setting determines the starting point for populating file details retrieved from Google Drive.
+
+Drive Explorer Pro provides two options:
+
+---
+
+## 1. Currently Selected Cell
+
+If this option is selected, the file list will be inserted starting from the cell that is currently active in the spreadsheet.
+
+### Recommended Use Cases:
+
+- When you need precise control over the insertion point.
+- When you are manually organizing or formatting data around the inserted content.
+- When inserting file listings in multiple parts of the sheet.
+
+**Example:**  
+If cell `B3` is selected, the listing will begin at `B3` and expand downward and to the right based on the number of selected file attributes.
+
+**Note:**  
+Ensure there is sufficient empty space to avoid overwriting existing content in adjacent cells.
+
+---
+
+<br />
+
+<div
+  style={{
+    background: "#f0f9ff",
+    border: "3px solid #90cdf4",
+    borderRadius: "10px",
+    padding: "16px",
+    boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
+    display: "inline-block",
+    marginBottom: "1rem",
+  }}
+>
+  <img
+    src="/images/cell-img.png"
+    alt="Install Drive Explorer Pro"
+    style={{ borderRadius: "6px", maxWidth: "100%" }}
+  />
+</div>
+
+<br />
+
+## 2. Append Below Existing Data
+
+If this option is selected, Drive Explorer Pro automatically detects the last non-empty row and inserts the new file list immediately after it.
+
+### Recommended Use Cases:
+
+- When maintaining a growing list of files.
+- When appending new entries over time.
+- When the existing sheet content should remain unmodified.
+
+**Example:**  
+If there are already ten rows of data, the new listing will begin from row 11, regardless of which cell is currently selected.
+
+**Note:**  
+This approach is well-suited for incremental updates and ongoing logs.
+
+---
+
+> After selecting the preferred option, click Save selected settings as Default at the bottom of the sidebar to apply this configuration for future sessions.
